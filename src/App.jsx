@@ -86,9 +86,9 @@ export default function Navbar() {
         </div>
       </div>
 
-      {/* About Section */}
+    
       <section className="w-full h-[50vh] lg:h-[25vh] bg-[#231F20] flex flex-col lg:justify-normal px-5 lg:p-9 pt-6 lg:pt-0">
-        {/* Header with Divider */}
+     
         <div className="flex items-center">
           <h1 className="text-[#86a6d9] text-4xl lg:text-5xl font-bold mr-6">
             About
@@ -96,7 +96,7 @@ export default function Navbar() {
           <div className="flex-1 h-[3px] bg-[#86a6d9]"></div>
         </div>
 
-        {/* About Content */}
+    
         <div className="mt-8 text-gray-300 lg:text-1xl">
           <p>
             I am a passionate Full Stack Developer with experience in building
@@ -149,7 +149,7 @@ export default function Navbar() {
         </div>
       </div>
       <section className="w-full h-[50vh] lg:h-[25vh] bg-[#231F20] flex flex-col lg:justify-normal px-5 lg:p-9 pt-6 lg:pt-0">
-        {/* Header with Divider */}
+      
         <div className="flex items-center">
           <h1 className="text-[#86a6d9] text-4xl lg:text-5xl font-bold mr-6">
             Work
@@ -157,7 +157,7 @@ export default function Navbar() {
           <div className="flex-1 h-[3px] bg-[#86a6d9]"></div>
         </div>
 
-        {/* About Content */}
+      
         <div className="mt-8 text-gray-300 lg:text-1xl">
           <p>
             As a 13-year-old passionate and fast-growing coder, I am always
@@ -169,6 +169,9 @@ export default function Navbar() {
           </p>
         </div>
       </section>
+      <div className="w-[100%] h-[150vh] lg:h-[90vh] bg-red-300">
+
+      </div>
     </>
   );
 }
